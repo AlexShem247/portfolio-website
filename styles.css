@@ -146,6 +146,10 @@ footer {
     background: #1e6c93; /* Download button background */
 }
 
+.play-button {
+    background: #0da410; /* Download button background */
+}
+
 .button i {
     margin-right: 5px;
 }
@@ -160,10 +164,25 @@ footer {
 }
 
 .contact-info a {
-    color: #007bff; /* Blue color for links */
+    color: #1e6c93; /* Blue color for links */
     text-decoration: none; /* Remove underline from links */
 }
 
 .contact-info a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.imageDesc {
+    font-size: 11px;
+    font-style: italic;
 }
