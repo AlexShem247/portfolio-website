@@ -3,19 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Page</title>
+    <title>Alex Shem - Computing Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Sample Page</h1>
-    </header>
-    <main>
-        <p>This is a basic HTML document with a separate CSS file.</p>
-        <p>You can add more content here as needed.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 My Sample Page</p>
-    </footer>
+    <div class="container">
+        <img src="assets/Profile.png" alt="Profile Picture" class="image" id="profile">
+        <div class="text">
+            <h1>Welcome to My Website!</h1>
+            <p>
+                Hi there! I'm Alexander Shemaly, a passionate Computing student at Imperial College London,
+                currently at my <b>third year</b> of study. I have a strong interest in artificial intelligence, 
+                software engineering, and algorithm design. Over the years, I've developed a solid foundation 
+                in creating immersive games, designing AI-driven applications, and enhancing user experiences, 
+                which I'm excited to continue building upon as I seek new challenges and opportunities.
+            </p>
+            <p>
+                On this site, you'll find a showcase of my projects, a detailed overview of my skills, and a bit more
+                about my journey in the world of computing. I'm actively looking for a work placement to apply my knowledge
+                in a real-world setting, collaborate with experienced professionals, and contribute to impactful projects.
+            </p>
+            <p>
+                Feel free to explore my work, learn more about me, and don't hesitate to get in touch if you'd like to
+                discuss any potential opportunities!
+            </p>
+        </div>
+    </div>
+    
+    <div class="project">
+        <div class="project-header">
+            <div class="language">
+                <i class="fas fa-code"></i> C++
+            </div>
+            <div class="project-type">
+                <i class="fas fa-user"></i> Personal Project
+            </div>
+            <div class="date">
+                <i class="fas fa-calendar-alt"></i> August 2024
+            </div>
+        </div>
+        <h2 class="project-name">STARGLIDE</h2>
+        <div class="project-images">
+            <img src="assets/starglideHome.png" alt="STARGLIDE HOME SCREEN" class="image-1">
+            <video autoplay loop muted width="100%" class="image-2">
+                <source src="assets/starglideDemo.mp4" type="video/mp4">
+                <source src="assets/starglideDemo.webm" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="project-description">
+            <p>
+                STARGLIDE is a space-themed endless runner where players control a spaceship to
+                navigate through a constantly shifting path. The game becomes progressively
+                harder as the speed increases, challenging your ability to stay on course.
+                The objective is to stay on the path for as long as possible to achieve the
+                highest score.
+            </p>
+            <p>
+                <i>Game written in C++ using the RayLib framework and devkitPro toolchain.</i>
+            </p>
+
+            <p>
+                STARGLIDE is a game written for the Nintendo 3DS, but I also wanted it to have
+                a port for PC. During its creation, I developed a framework called
+                <a href="https://github.com/AlexShem247/desktop-3ds-game-framework">
+                    Cross-Platform Game Framework for Desktop and Nintendo 3DS
+                </a>
+                , which unifies software
+                development for these two platforms and makes it easier to write code without having any previous
+                experience for developing 3DS applications.
+            </p>
+
+            <p>
+                I was inspired by a course at university called <i>Software Engineering Design</i>, which teaches about
+                software design patterns and principles. This course emphasised the importance of creating adaptable
+                and scalable architectures, which motivated me to design a framework that makes software developement easier.
+            </p>
+        </div>
+        <div class="project-buttons">
+            <a href="https://github.com/AlexShem247/starglide-3ds" class="button github-button" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://github.com/AlexShem247/starglide-3ds/releases" class="button download-button" target="_blank">
+                <i class="fas fa-download"></i> Download
+            </a>
+        </div>
+    </div>
 </body>
+<footer>
+    <p>&copy; 2024 Alexander Shemaly</p>
+</footer>
 </html>
